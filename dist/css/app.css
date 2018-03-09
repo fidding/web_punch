@@ -1,0 +1,59 @@
+body {
+  background-image: url(..//images/7/硬件与App对接使用介绍@2x.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+body .block-title {
+  padding-left: 1.75141243rem;
+}
+body .block-title img {
+  width: .70621469rem;
+  height: .70621469rem;
+  position: relative;
+  top: .16949153rem;
+}
+body .block-title-register {
+  padding-left: 1.75141243rem;
+}
+body .block-title-register img {
+  position: relative;
+  top: .14124294rem;
+}
+body .block-img-register img {
+  width: 6.21468927rem;
+}
+body .block-text-register {
+  line-height: .56497175rem;
+  padding-left: 1.76553672rem;
+}
+body .block-title {
+  padding-left: 1.75141243rem;
+}
+body .block-title img {
+  position: relative;
+  top: .14124294rem;
+}
+body .block-img-connect {
+  padding-left: .4519774rem;
+}
+body .block-img-connect img {
+  width: 7.98022599rem;
+}
+body .block-text {
+  line-height: .56497175rem;
+  padding-left: 1.76553672rem;
+}
+body .block-title-operation {
+  padding-left: 1.75141243rem;
+}
+body .block-title-operation img {
+  position: relative;
+  top: .14124294rem;
+}
+body .block-img-operation img {
+  width: 8.33333333rem;
+}
+body .block-text-operation {
+  line-height: .56497175rem;
+  padding-left: 1.20056497rem;
+}

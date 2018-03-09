@@ -1,0 +1,32 @@
+body {
+  background-image: url(..//images/4/硬件设备使用与功能介绍@2x.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+body .block-title {
+  padding-left: 1.75141243rem;
+}
+body .block-title img {
+  width: .70621469rem;
+  height: .70621469rem;
+  position: relative;
+  top: .16949153rem;
+}
+body .block-img img {
+  width: 6.61016949rem;
+}
+body .block-text {
+  line-height: .53672316rem;
+  padding-left: 1.20056497rem;
+}
+body .block-img-install img {
+  width: 4.18079096rem;
+}
+body .block-text-install {
+  line-height: .53672316rem;
+  padding-left: 1.76553672rem;
+}
+body .block-text-open {
+  line-height: .56497175rem;
+  padding-left: 1.69491525rem;
+}

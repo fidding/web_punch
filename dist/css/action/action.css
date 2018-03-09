@@ -1,0 +1,69 @@
+body {
+  background-image: url(../../images/11/硬件与App对接使用介绍@2x.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+body .block-title {
+  padding-left: 1.75141243rem;
+}
+body .block-title img {
+  width: .70621469rem;
+  height: .70621469rem;
+  position: relative;
+  top: .16949153rem;
+}
+body .block-img-free img {
+  width: 6.85028249rem;
+  padding-left: 2.40112994rem;
+}
+body .block-text-free {
+  line-height: .56497175rem;
+  padding-left: 1.76553672rem;
+}
+body .link {
+  position: absolute;
+  display: block;
+  width: 2.48587571rem;
+  height: .56497175rem;
+}
+body .link-double {
+  left: 3.72881356rem;
+  top: 10.59322034rem;
+  z-index: 999;
+}
+body .link-aerobic {
+  left: 3.72881356rem;
+  top: 11.41242938rem;
+  z-index: 999;
+}
+body .block-img-exercise {
+  padding-left: 2.40112994rem;
+}
+body .block-img-exercise img {
+  width: 5.19774011rem;
+}
+body .block-img-aerobic {
+  padding-left: 2.48587571rem;
+}
+body .block-img-aerobic img {
+  width: 6.85028249rem;
+}
+body .block-title-data {
+  padding-left: 2.47175141rem;
+}
+body .block-title-data img {
+  position: relative;
+  top: .16949153rem;
+  width: .81920904rem;
+  height: .81920904rem;
+}
+body .block-img-data img {
+  width: 5.02824859rem;
+}
+body .block-img-user img {
+  padding-left: 2.48587571rem;
+  width: 6.3559322rem;
+}
+body .block-text-user {
+  padding-left: .98870056rem;
+}
