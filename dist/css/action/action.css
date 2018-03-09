@@ -1,5 +1,5 @@
 body {
-  background-image: url(../../images/11/硬件与App对接使用介绍@2x.png);
+  background-image: url(../../images/7/硬件与App对接使用介绍@2x.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -13,12 +13,53 @@ body .block-title img {
   top: .16949153rem;
 }
 body .block-img-free img {
-  width: 6.85028249rem;
-  padding-left: 2.40112994rem;
+  width: 5.19774011rem;
 }
 body .block-text-free {
   line-height: .56497175rem;
   padding-left: 1.76553672rem;
+}
+@keyframes free {
+  from {
+    width: 0;
+  }
+  to {
+    width: 2.45762712rem;
+  }
+}
+@keyframes free2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body #free_line_right {
+  position: absolute;
+  top: 6.42655367rem;
+  left: 5.4519774rem;
+  background-color: #fff;
+  height: .02824859rem;
+  width: 0;
+  animation: free 2s 0s forwards;
+}
+body #free_line_right_dot {
+  position: absolute;
+  top: 6.38418079rem;
+  left: 5.36723164rem;
+  border: 1px solid #fff;
+  width: .08474576rem;
+  height: .08474576rem;
+  border-radius: 50%;
+}
+body #free_line_right_text {
+  position: absolute;
+  top: 6.24293785rem;
+  left: 7.99435028rem;
+  color: #747474;
+  opacity: 0;
+  animation: free2 1s 1s forwards;
 }
 body .link {
   position: absolute;
@@ -42,11 +83,8 @@ body .block-img-exercise {
 body .block-img-exercise img {
   width: 5.19774011rem;
 }
-body .block-img-aerobic {
-  padding-left: 2.48587571rem;
-}
 body .block-img-aerobic img {
-  width: 6.85028249rem;
+  width: 5rem;
 }
 body .block-title-data {
   padding-left: 2.47175141rem;
@@ -61,9 +99,125 @@ body .block-img-data img {
   width: 5.02824859rem;
 }
 body .block-img-user img {
-  padding-left: 2.48587571rem;
-  width: 6.3559322rem;
+  width: 5rem;
 }
 body .block-text-user {
   padding-left: .98870056rem;
+  opacity: 0;
+  animation: user2 1s 1.5s forwards;
+}
+@keyframes aerobic {
+  from {
+    width: 0;
+  }
+  to {
+    width: 2.25988701rem;
+  }
+}
+@keyframes aerobic2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body #aerobic_line_right_dot {
+  position: absolute;
+  top: 12.34463277rem;
+  left: 5.66384181rem;
+  border: 1px solid #1d979a;
+  width: .08474576rem;
+  height: .08474576rem;
+  border-radius: 50%;
+}
+body #aerobic_line_right {
+  background-color: #1d979a;
+  position: absolute;
+  top: 12.38700565rem;
+  left: 5.74858757rem;
+  height: .02824859rem;
+  animation: aerobic 2s 0s forwards;
+}
+body #aerobic_line_right_text {
+  position: absolute;
+  top: 12.00564972rem;
+  right: .6779661rem;
+  color: #747474;
+  opacity: 0;
+  animation: aerobic2 1s 1s forwards;
+}
+@keyframes user {
+  from {
+    width: 0;
+  }
+  to {
+    width: .31073446rem;
+  }
+}
+@keyframes user2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body #user_line_right_dot {
+  position: absolute;
+  top: 8.29096045rem;
+  left: 7.45762712rem;
+  border: 1px solid #fff;
+  width: .08474576rem;
+  height: .08474576rem;
+  border-radius: 50%;
+}
+body #user_line_right {
+  background-color: #fff;
+  position: absolute;
+  top: 8.33333333rem;
+  left: 7.54237288rem;
+  height: .02824859rem;
+  animation: user 2s 0s forwards;
+}
+body #user_line_right_text {
+  position: absolute;
+  top: 7.90960452rem;
+  right: 1.1299435rem;
+  color: #747474;
+  opacity: 0;
+  animation: user2 1s 1s forwards;
+}
+@keyframes user3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: .31073446rem;
+  }
+}
+body #user_line_right_dot2 {
+  position: absolute;
+  top: 10.57909605rem;
+  left: 7.45762712rem;
+  border: 1px solid #fff;
+  width: .08474576rem;
+  height: .08474576rem;
+  border-radius: 50%;
+}
+body #user_line_right2 {
+  background-color: #fff;
+  position: absolute;
+  top: 10.62146893rem;
+  left: 7.54237288rem;
+  height: .02824859rem;
+  animation: user 2s 0s forwards;
+}
+body #user_line_right_text2 {
+  position: absolute;
+  top: 10.24011299rem;
+  right: 1.1299435rem;
+  color: #747474;
+  opacity: 0;
+  animation: user2 1s 1s forwards;
 }

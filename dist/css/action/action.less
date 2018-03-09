@@ -1,5 +1,5 @@
 body {
-	background-image: url(../../images/11/硬件与App对接使用介绍@2x.png);
+	background-image: url(../../images/7/硬件与App对接使用介绍@2x.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	// 运动首页
@@ -15,13 +15,48 @@ body {
 	// 自由模式
 	.block-img-free {
 		img {
-			width: 6.85028249rem; // 485px
-			padding-left: 2.40112994rem; // 170px
+			width: 5.19774011rem; // 368px
 		}
 	}
 	.block-text-free {
 		line-height: .56497175rem; // 40px
 		padding-left: 1.76553672rem; // 125px
+	}
+	@keyframes free
+    {
+        from {width: 0;}
+        to {width: 2.45762712rem;}
+    }
+    @keyframes free2
+    {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+	#free_line_right {
+		position: absolute;
+		top: 6.42655367rem; // 455px
+		left: 5.4519774rem; // 386px
+		background-color: #fff;
+		height: .02824859rem; // 2px
+		width: 0; // 0px
+		animation: free 2s 0s forwards;
+	}
+	#free_line_right_dot {
+	   	position: absolute;
+    	top: 6.38418079rem; // 452px
+		left: 5.36723164rem; // 380px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+	}
+	#free_line_right_text {
+		position: absolute;
+		top: 6.24293785rem; // 442px
+		left: 7.99435028rem; // 566px
+		color: #747474;
+		opacity: 0;
+		animation: free2 1s 1s forwards;
 	}
 	// 娱乐模式
 	.link {
@@ -50,9 +85,8 @@ body {
 	}
 	// 有氧模式
 	.block-img-aerobic {
-		padding-left: 2.48587571rem; // 176px
 		img {
-			width: 6.85028249rem; // 485px
+			width: 5rem; // 354px
 		}
 	}
 	// 数据模版
@@ -73,11 +107,114 @@ body {
 	// 个人模版
 	.block-img-user {
 		img {
-			padding-left: 2.48587571rem; // 176px
-			width: 6.3559322rem; // 450px
+			width: 5rem; // 354px
 		}
 	}
 	.block-text-user {
 		padding-left: .98870056rem; // 70px
+		opacity: 0;
+		animation: user2 1s 1.5s forwards;
+	}
+	// 动画-有氧运动
+	@keyframes aerobic
+    {
+        from {width: 0;}
+        to {width: 2.25988701rem}
+    }
+    @keyframes aerobic2
+    {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    #aerobic_line_right_dot {
+    	position: absolute;
+    	top: 12.34463277rem; // 874px
+        left: 5.66384181rem; // 401px
+    	border: 1px solid #1d979a;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#aerobic_line_right {
+		background-color: #1d979a;
+		position: absolute;
+		top: 12.38700565rem; // 877px
+        left: 5.74858757rem; // 407px
+        height: .02824859rem; // 2px
+        animation: aerobic 2s 0s forwards;
+	}
+	#aerobic_line_right_text {
+		position: absolute;
+		top: 12.00564972rem; // 850px
+        right: .6779661rem; // 48px
+		color: #747474;
+		opacity: 0;
+		animation: aerobic2 1s 1s forwards;
+	}
+	// 动画-个人设置
+	@keyframes user
+    {
+        from {width: 0;}
+        to {width: .31073446rem;}
+    }
+    @keyframes user2
+    {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    #user_line_right_dot {
+    	position: absolute;
+    	top: 8.29096045rem; // 587px
+        left: 7.45762712rem; // 528px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#user_line_right {
+		background-color: #fff;
+		position: absolute;
+		top: 8.33333333rem; // 590px
+        left: 7.54237288rem; // 534px
+        height: .02824859rem; // 2px
+        animation: user 2s 0s forwards;
+	}
+	#user_line_right_text {
+		position: absolute;
+		top: 7.90960452rem; // 560px
+        right: 1.1299435rem; // 80px
+		color: #747474;
+		opacity: 0;
+		animation: user2 1s 1s forwards;
+	}
+	@keyframes user3
+    {
+        from {width: 0;}
+        to {width: .31073446rem;}
+    }
+	 #user_line_right_dot2 {
+    	position: absolute;
+    	top: 10.57909605rem; // 749px
+        left: 7.45762712rem; // 528px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#user_line_right2 {
+		background-color: #fff;
+		position: absolute;
+		top: 10.62146893rem; // 752px
+        left: 7.54237288rem; // 534px
+        height: .02824859rem; // 2px
+        animation: user 2s 0s forwards;
+	}
+	#user_line_right_text2 {
+		position: absolute;
+		top: 10.24011299rem; // 725px
+        right: 1.1299435rem; // 80px
+		color: #747474;
+		opacity: 0;
+		animation: user2 1s 1s forwards;
 	}
 }

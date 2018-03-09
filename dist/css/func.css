@@ -1,4 +1,5 @@
 body {
+  height: 17.76836158rem;
   background-image: url(..//images/4/硬件设备使用与功能介绍@2x.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -18,6 +19,14 @@ body .block-img img {
 body .block-text {
   line-height: .53672316rem;
   padding-left: 1.20056497rem;
+  opacity: 0;
+  animation: func2 1s 2.5s forwards;
+}
+body .block-text2 {
+  line-height: .53672316rem;
+  padding-left: 1.20056497rem;
+  opacity: 0;
+  animation: func2 1s 3s forwards;
 }
 body .block-img-install img {
   width: 4.18079096rem;
@@ -29,4 +38,208 @@ body .block-text-install {
 body .block-text-open {
   line-height: .56497175rem;
   padding-left: 1.69491525rem;
+}
+@keyframes func {
+  from {
+    height: 0;
+  }
+  to {
+    height: 2.33050847rem;
+  }
+}
+@keyframes func2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes func3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: .56497175rem;
+  }
+}
+body #func_line_left_dot {
+  position: absolute;
+  bottom: 9.68926554rem;
+  left: 1.79378531rem;
+  border: 1px solid #fff;
+  width: .25423729rem;
+  height: .25423729rem;
+  border-radius: 50%;
+}
+body #func_line_left {
+  background-color: #fff;
+  position: absolute;
+  bottom: 9.97175141rem;
+  left: 1.93502825rem;
+  width: .02824859rem;
+  animation: func 1s 0s forwards;
+}
+body #func_line_left2 {
+  background-color: #fff;
+  position: absolute;
+  bottom: 12.30225989rem;
+  left: 1.93502825rem;
+  height: .02824859rem;
+  animation: func3 1s 1s forwards;
+}
+body #func_line_left_text {
+  position: absolute;
+  bottom: 12.44350282rem;
+  left: 1.89265537rem;
+  color: #747474;
+  opacity: 0;
+  animation: func2 1s 2s forwards;
+}
+@keyframes func4 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 1.49717514rem;
+  }
+}
+@keyframes func5 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1.3559322rem;
+  }
+}
+body #func_line_top_left {
+  background-color: #fff;
+  position: absolute;
+  bottom: 10.93220339rem;
+  left: 3.75706215rem;
+  width: .02824859rem;
+  animation: func4 1s 0s forwards;
+}
+body #func_line_top_right {
+  background-color: #fff;
+  position: absolute;
+  bottom: 10.93220339rem;
+  right: 3.75706215rem;
+  width: .02824859rem;
+  animation: func4 1s 0s forwards;
+}
+body #func_line_top_left2 {
+  background-color: #fff;
+  position: absolute;
+  bottom: 12.42937853rem;
+  left: 3.75706215rem;
+  height: .02824859rem;
+  animation: func5 1s 1s forwards;
+}
+body #func_line_top_right2 {
+  background-color: #fff;
+  position: absolute;
+  bottom: 12.42937853rem;
+  right: 3.75706215rem;
+  height: .02824859rem;
+  animation: func5 1s 1s forwards;
+}
+body #func_line_top_text {
+  position: absolute;
+  bottom: 12.57062147rem;
+  left: 4.26553672rem;
+  color: #747474;
+  opacity: 0;
+  animation: func2 1s 2s forwards;
+}
+@keyframes func6 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 1.44067797rem;
+  }
+}
+@keyframes func7 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1.90677966rem;
+  }
+}
+body #func_line_bottom_left_dot {
+  position: absolute;
+  top: 7.88135593rem;
+  left: 2.71186441rem;
+  border: 1px solid #fff;
+  width: 1.1299435rem;
+  height: 1.1299435rem;
+  border-radius: 50%;
+}
+body #func_line_bottom_right_dot {
+  position: absolute;
+  top: 7.88135593rem;
+  right: 2.61299435rem;
+  border: 1px solid #fff;
+  width: 1.1299435rem;
+  height: 1.1299435rem;
+  border-radius: 50%;
+}
+body #func_line_bottom_center_dot {
+  position: absolute;
+  top: 7.88135593rem;
+  left: 4.49152542rem;
+  border: 1px solid #fff;
+  width: 1.1299435rem;
+  height: 1.1299435rem;
+  border-radius: 50%;
+}
+body #func_line_bottom_left {
+  background-color: #fff;
+  position: absolute;
+  top: 9.03954802rem;
+  left: 3.30508475rem;
+  width: .02824859rem;
+  animation: func6 1s 0s forwards;
+}
+body #func_line_bottom_center {
+  background-color: #fff;
+  position: absolute;
+  top: 9.03954802rem;
+  left: 5.08474576rem;
+  width: .02824859rem;
+  animation: func6 2s 0s forwards;
+}
+body #func_line_bottom_right {
+  background-color: #fff;
+  position: absolute;
+  top: 9.03954802rem;
+  right: 3.1779661rem;
+  width: .02824859rem;
+  animation: func6 1s 0s forwards;
+}
+body #func_line_bottom_left2 {
+  background-color: #fff;
+  position: absolute;
+  top: 10.4519774rem;
+  left: 3.30508475rem;
+  height: .02824859rem;
+  animation: func7 1s 1s forwards;
+}
+body #func_line_bottom_right2 {
+  background-color: #fff;
+  position: absolute;
+  top: 10.4519774rem;
+  right: 3.1779661rem;
+  height: .02824859rem;
+  animation: func7 1s 1s forwards;
+}
+body #func_line_bottom_text {
+  position: absolute;
+  top: 10.59322034rem;
+  left: 4.16666667rem;
+  color: #747474;
+  opacity: 0;
+  animation: func2 1s 2s forwards;
 }

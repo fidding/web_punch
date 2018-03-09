@@ -1,5 +1,6 @@
 
 body {
+	height: 17.76836158rem; // 1258px
 	background-image: url(..//images/4/硬件设备使用与功能介绍@2x.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -20,8 +21,15 @@ body {
 	.block-text {
 		line-height: .53672316rem; // 38px
 		padding-left: 1.20056497rem; // 85px
+		opacity: 0;
+		animation: func2 1s 2.5s forwards;
 	}
-
+	.block-text2 {
+		line-height: .53672316rem; // 38px
+		padding-left: 1.20056497rem; // 85px
+		opacity: 0;
+		animation: func2 1s 3s forwards;
+	}
 	// 安装
 	.block-img-install {
 		img {
@@ -37,4 +45,189 @@ body {
 		line-height: .56497175rem; // 40px
 		padding-left: 1.69491525rem; // 120px
 	}
+	// 动画-功能分解
+	@keyframes func
+    {
+        from {height: 0;}
+        to {height: 2.33050847rem;}
+    }
+    @keyframes func2
+    {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+     @keyframes func3
+    {
+        from {width: 0;}
+        to {width: .56497175rem;}
+    }
+    #func_line_left_dot {
+    	position: absolute;
+    	bottom: 9.68926554rem; // 686px
+        left: 1.79378531rem; // 127px
+    	border: 1px solid #fff;
+    	width: .25423729rem;
+    	height: .25423729rem;
+    	border-radius: 50%;
+    }
+	#func_line_left {
+		background-color: #fff;
+		position: absolute;
+		bottom: 9.97175141rem; // 706px
+        left: 1.93502825rem; // 137px
+        width: .02824859rem; // 2px
+        animation: func 1s 0s forwards;
+	}
+	#func_line_left2 {
+		background-color: #fff;
+		position: absolute;
+		bottom: 12.30225989rem; // 871px
+        left: 1.93502825rem; // 137px
+        height: .02824859rem; // 2px
+        animation: func3 1s 1s forwards;
+	}
+	#func_line_left_text {
+		position: absolute;
+		bottom: 12.44350282rem; // 881px
+        left: 1.89265537rem; // 134px
+		color: #747474;
+		opacity: 0;
+		animation: func2 1s 2s forwards;
+	}
+
+	@keyframes func4
+    {
+        from {height: 0;}
+        to {height: 1.49717514rem;}
+    }
+    @keyframes func5
+    {
+        from {width: 0;}
+        to {width: 1.3559322rem;}
+    }
+    #func_line_top_left {
+    	background-color: #fff;
+		position: absolute;
+		bottom: 10.93220339rem; // 774px
+        left: 3.75706215rem; // 266px
+        width: .02824859rem; // 2px
+        animation: func4 1s 0s forwards;
+    }
+    #func_line_top_right {
+    	background-color: #fff;
+		position: absolute;
+		bottom: 10.93220339rem; // 774px
+        right: 3.75706215rem; // 266px
+        width: .02824859rem; // 2px
+        animation: func4 1s 0s forwards;
+    }
+     #func_line_top_left2 {
+    	background-color: #fff;
+		position: absolute;
+		bottom: 12.42937853rem; // 880px
+        left: 3.75706215rem; // 266px
+        height: .02824859rem; // 2px
+        animation: func5 1s 1s forwards;
+    }
+    #func_line_top_right2 {
+    	background-color: #fff;
+		position: absolute;
+		bottom: 12.42937853rem; // 880px
+        right: 3.75706215rem; // 266px
+        height: .02824859rem; // 2px
+        animation: func5 1s 1s forwards;
+    }
+    #func_line_top_text {
+   		position: absolute;
+		bottom: 12.57062147rem; // 890px
+        left: 4.26553672rem; // 302px
+		color: #747474;
+		opacity: 0;
+		animation: func2 1s 2s forwards;
+    }
+	@keyframes func6
+    {
+        from {height: 0;}
+        to {height: 1.44067797rem;}
+    }
+    @keyframes func7
+    {
+        from {width: 0;}
+        to {width: 1.90677966rem}
+    }
+       #func_line_bottom_left_dot {
+    	position: absolute;
+    	top: 7.88135593rem; // 558px
+        left: 2.71186441rem; // 192px
+    	border: 1px solid #fff;
+    	width: 1.1299435rem; // 80px
+    	height: 1.1299435rem; // 80px
+    	border-radius: 50%;
+    }
+    #func_line_bottom_right_dot {
+    	position: absolute;
+    	top: 7.88135593rem; // 558px
+        right: 2.61299435rem; // 185px
+    	border: 1px solid #fff;
+    	width: 1.1299435rem; // 80px
+    	height: 1.1299435rem; // 80px
+    	border-radius: 50%;
+    }
+    #func_line_bottom_center_dot {
+    	position: absolute;
+    	top: 7.88135593rem; // 558px
+        left: 4.49152542rem; // 318px
+    	border: 1px solid #fff;
+    	width: 1.1299435rem; // 80px
+    	height: 1.1299435rem; // 80px
+    	border-radius: 50%;
+    }
+    #func_line_bottom_left {
+    	background-color: #fff;
+		position: absolute;
+		top: 9.03954802rem; // 640px
+        left: 3.30508475rem; // 234px
+        width: .02824859rem; // 2px
+        animation: func6 1s 0s forwards;
+    }
+    #func_line_bottom_center {
+    	background-color: #fff;
+		position: absolute;
+		top: 9.03954802rem; // 640px
+        left: 5.08474576rem; // 360px
+        width: .02824859rem; // 2px
+        animation: func6 2s 0s forwards;
+    }
+    #func_line_bottom_right {
+    	background-color: #fff;
+		position: absolute;
+		top: 9.03954802rem; // 640px
+        right: 3.1779661rem; // 225px
+        width: .02824859rem; // 2px
+        animation: func6 1s 0s forwards;
+    }
+    #func_line_bottom_left2 {
+    	background-color: #fff;
+		position: absolute;
+		top: 10.4519774rem; // 740px
+        left: 3.30508475rem; // 234px
+        height: .02824859rem; // 2px
+        animation: func7 1s 1s forwards;
+    }
+    #func_line_bottom_right2 {
+    	background-color: #fff;
+		position: absolute;
+		top: 10.4519774rem; // 740px
+        right: 3.1779661rem; // 225px
+        height: .02824859rem; // 2px
+        animation: func7 1s 1s forwards;
+    }
+    #func_line_bottom_text {
+		position: absolute;
+		top: 10.59322034rem; // 750px
+        left: 4.16666667rem; // 295px
+		color: #747474;
+		opacity: 0;
+		animation: func2 1s 2s forwards;
+    }
 }

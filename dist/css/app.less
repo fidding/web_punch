@@ -1,5 +1,6 @@
 
 body {
+	height: 17.76836158rem; // 1258px
 	background-image: url(..//images/7/硬件与App对接使用介绍@2x.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -41,9 +42,8 @@ body {
 	}
 
 	.block-img-connect  {
-		padding-left: .4519774rem; // 32px
 		img {
-			width: 7.98022599rem; // 565px
+			width: 5.19774011rem; // 368px
 		}
 	}
 	.block-text {
@@ -60,11 +60,299 @@ body {
 	}
 	.block-img-operation {
 		img {
-			width: 8.33333333rem; // 590px
+			width: 5.2259887rem; // 370px
 		}
 	}
+	@keyframes operation8
+    {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
 	.block-text-operation {
+		opacity: 0;
 		line-height: .56497175rem; // 40px
 		padding-left: 1.20056497rem; // 85px
+		animation: operation8 1s 2s forwards;
+	}
+	
+	// 动画-设备连接
+	@keyframes connect1
+    {
+        from {width: 0;}
+        to {width: .84745763rem;}
+    }
+    @keyframes connect6
+    {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    #connect_line_left_dot {
+    	position: absolute;
+    	top: 13.33333333rem; // 944px
+    	right: 6.93502825rem; // 491px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#connect_line_left {
+		background-color: #fff;
+		position: absolute;
+		top: 13.36158192rem; // 950px
+        right: 7.01977401rem; // 497px
+        height: .02824859rem; // 2px
+        animation: connect1 2s 0s forwards;
+	}
+	#connect_line_left_text {
+		position: absolute;
+		top: 13.13559322rem; // 930px
+		left: .49435028rem; // 35px
+		color: #747474;
+		opacity: 0;
+		animation: connect6 1s 1s forwards;
+	}
+	@keyframes connect2
+    {
+        from {width: 0;}
+        to {width: 2.35875706rem;}
+    }
+    @keyframes connect3
+    {
+        from {height: 0;}
+        to {height: 4.03954802rem;}
+    }
+    @keyframes connect4
+    {
+        from {width: 0;}
+        to {width: .56497175rem}
+    }
+    @keyframes connect5
+    {
+        from {opacity: 0;}
+        to {opacity: 1}
+    }
+    #connect_line_right_dot {
+    	position: absolute;
+    	bottom: 8.24858757rem; // 584px
+        left: 5.59322034rem; // 396px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+    #connect_line_right_dot_2 {
+    	position: absolute;
+    	top: 5.42372881rem; // 384px
+        right: 2.5rem; // 177px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#connect_line_right {
+		background-color: #fff;
+		position: absolute;
+		bottom: 8.27683616rem; // 586px
+        left: 5.6920904rem; // 403px
+        height: .02824859rem; // 2px
+        animation: connect2 1s 0s forwards;
+	}
+	#connect_line_right_2 {
+		background-color: #fff;
+		position: absolute;
+		bottom: 8.27683616rem; // 586px
+        left: 8.05084746rem; // 570px
+        width: .02824859rem; // 2px
+        animation: connect3 1s 1s forwards;
+	}
+	#connect_line_right_3 {
+		background-color: #fff;
+		position: absolute;
+		top: 5.4519774rem; // 386px
+        right: 1.94915254rem; // 138px
+        height: .02824859rem; // 2px
+        animation: connect4 1s 2s forwards;
+	}
+	#content_line_right_text {
+		position: absolute;
+		top: 4.85875706rem; // 344px
+		right: 1.51129944rem; // 107px
+		color: #747474;
+		width: .28248588rem; // 20px
+		opacity: 0;
+		animation: connect5 1s 2s forwards;
+	}
+
+	// 动画-设备连接操作
+	@keyframes operation
+    {
+        from {width: 0;}
+        to {width: .39548023rem;}
+    }
+    @keyframes operation2
+    {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+	#operation_line_left {
+		background-color: #fff;
+		position: absolute;
+		top: 10.59322034rem; // 750px
+        right: 7.57062147rem; // 536px
+        height: .02824859rem; // 2px
+        animation: operation 2s 0s forwards;
+	}
+	#operation_line_left_dot {
+    	position: absolute;
+  		top: 10.56497175rem; // 748px
+        right: 7.48587571rem; // 530px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#operation_line_left_text {
+		position: absolute;
+		top: 10.39548023rem; // 736px
+        left: .6779661rem; // 48px
+		color: #747474;
+		opacity: 0;
+		animation: operation2 1s 1s forwards;
+	}
+	@keyframes operation3
+    {
+        from {width: 0;}
+        to {width: 1.86440678rem;}
+    }
+	#operation_line_right {
+		background-color: #fff;
+		position: absolute;
+		top: 7.88135593rem; // 558px
+        left: 5.97457627rem; // 423px
+        height: .02824859rem; // 2px
+        animation: operation3 2s 0s forwards;
+	}
+	#operation_line_right_dot {
+    	position: absolute;
+  		top: 7.82485876rem; // 554px
+        left: 5.87570621rem; // 416px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#operation_line_right_text {
+		position: absolute;
+		top: 7.71186441rem; // 546px
+        right: .84745763rem; // 60px
+		color: #747474;
+		opacity: 0;
+		animation: operation2 1s 1s forwards;
+	}
+	@keyframes operation4
+    {
+        from {width: 0;}
+        to {width: .42372881rem}
+    }
+	#operation_line_right2 {
+		background-color: #fff;
+		position: absolute;
+		top: 9.83050847rem; // 696px
+        left: 7.45762712rem; // 528px
+        height: .02824859rem; // 2px
+        animation: operation4 2s 0s forwards;
+	}
+	#operation_line_right_dot2 {
+    	position: absolute;
+  		top: 9.7740113rem; // 692px
+        left: 7.34463277rem; // 520px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#operation_line_right_text2 {
+		text-align: right;
+		position: absolute;
+		top: 9.60451977rem; // 680px
+        right: .84745763rem; // 60px
+		color: #747474;
+		opacity: 0;
+		animation: operation2 1s 1s forwards;
+	}
+	@keyframes operation5
+    {
+        from {width: 0;}
+        to {width: .42372881rem}
+    }
+	#operation_line_right3 {
+		background-color: #fff;
+		position: absolute;
+		top: 10.62146893rem; // 752px
+        left: 7.45762712rem; // 528px
+        height: .02824859rem; // 2px
+        animation: operation4 2s 0s forwards;
+	}
+	#operation_line_right_dot3 {
+    	position: absolute;
+  		top: 10.57909605rem; // 749px
+        left: 7.34463277rem; // 520px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+    }
+	#operation_line_right_text3 {
+		text-align: right;
+		position: absolute;
+		top: 10.4519774rem; // 740px
+        right: .84745763rem; // 60px
+		color: #747474;
+		opacity: 0;
+		animation: operation2 1s 1s forwards;
+	}
+	@keyframes operation6
+    {
+        from {height: 0;}
+        to {height: .25423729rem;}
+    }
+    @keyframes operation7
+    {
+        from {width: 0;}
+        to {width: 1.41242938rem;}
+    }
+	#operation_line_bottom {
+		background-color: #fff;
+		position: absolute;
+		top: 10.9039548rem; // 772px
+        left: 6.44067797rem; // 456px
+        width: .02824859rem; // 2px
+        animation: operation6 1s 0s forwards;
+	}
+	#operation_line_bottom_dot {
+		position: absolute;
+  		top: 10.81920904rem; // 766px
+        left: 6.39830508rem; // 453px
+    	border: 1px solid #fff;
+    	width: .08474576rem; // 6px
+    	height: .08474576rem; // 6px
+    	border-radius: 50%;
+	}
+	#operation_line_bottom1 {
+		background-color: #fff;
+		position: absolute;
+		top: 11.15819209rem; // 790px
+        left: 6.44067797rem; // 456px
+        height: .02824859rem; // 2px
+        animation: operation7 1s 1s forwards;
+	}
+	#operation_line_bottom_text {
+		text-align: right;
+		position: absolute;
+		top: 10.96045198rem; // 776px
+        right: .84745763rem; // 60px
+		color: #747474;
+		opacity: 0;
+		animation: operation2 1s 1s forwards;
 	}
 }
