@@ -36,14 +36,36 @@ body {
 			width: 4.18079096rem; // 296px
 		}
 	}
-	.block-text-install {
+	.block-text-install, .block-text-install2, .block-text-install3 {
 		line-height: .53672316rem; // 38px
 		padding-left: 1.76553672rem; // 125px
+		opacity: 0;
+	}
+	.block-text-install {
+		animation: func2 1s 0s forwards;
+	}
+	.block-text-install2{
+		animation: func2 1s 0.5s forwards;
+	}
+	.block-text-install3 {
+		animation: func2 1s 1s forwards;
 	}
 	// 开机关机
 	.block-text-open {
 		line-height: .56497175rem; // 40px
 		padding-left: 1.69491525rem; // 120px
+	}
+	.block-text-open1, .block-text-open2, .block-text-open3 {
+		opacity: 0
+	}
+	.block-text-open1 {
+		animation: func2 1s 0s forwards;
+	}
+	.block-text-open2 {
+		animation: func2 1s 0.5s forwards;
+	}
+	.block-text-open3 {
+		animation: func2 1s 1s forwards;
 	}
 	// 动画-功能分解
 	@keyframes func

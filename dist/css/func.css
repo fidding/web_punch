@@ -31,13 +31,39 @@ body .block-text2 {
 body .block-img-install img {
   width: 4.18079096rem;
 }
-body .block-text-install {
+body .block-text-install,
+body .block-text-install2,
+body .block-text-install3 {
   line-height: .53672316rem;
   padding-left: 1.76553672rem;
+  opacity: 0;
+}
+body .block-text-install {
+  animation: func2 1s 0s forwards;
+}
+body .block-text-install2 {
+  animation: func2 1s 0.5s forwards;
+}
+body .block-text-install3 {
+  animation: func2 1s 1s forwards;
 }
 body .block-text-open {
   line-height: .56497175rem;
   padding-left: 1.69491525rem;
+}
+body .block-text-open1,
+body .block-text-open2,
+body .block-text-open3 {
+  opacity: 0;
+}
+body .block-text-open1 {
+  animation: func2 1s 0s forwards;
+}
+body .block-text-open2 {
+  animation: func2 1s 0.5s forwards;
+}
+body .block-text-open3 {
+  animation: func2 1s 1s forwards;
 }
 @keyframes func {
   from {
