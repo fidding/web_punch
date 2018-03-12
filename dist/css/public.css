@@ -488,11 +488,17 @@ body {
 .margin-top-25 {
   margin-top: .35310734rem;
 }
+.margin-top--60 {
+  margin-top: -0.84745763rem;
+}
 .pad-top-260 {
   padding-top: 3.67231638rem;
 }
 .pad-top-240 {
   padding-top: 3.38983051rem;
+}
+.pad-top-200 {
+  padding-top: 2.82485876rem;
 }
 .pad-top-190 {
   padding-top: 2.68361582rem;
@@ -517,6 +523,12 @@ body {
 }
 .pad-top-116 {
   padding-top: 1.63841808rem;
+}
+.pad-top-105 {
+  padding-top: 1.48305085rem;
+}
+.pad-top-90 {
+  padding-top: 1.27118644rem;
 }
 .pad-top-70 {
   padding-top: .98870056rem;

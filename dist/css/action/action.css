@@ -17,7 +17,9 @@ body .block-img-free img {
 }
 body .block-text-free {
   line-height: .56497175rem;
-  padding-left: 1.76553672rem;
+  text-align: center;
+  opacity: 0;
+  animation: free2 1s 3s forwards;
 }
 @keyframes free {
   from {
@@ -37,7 +39,7 @@ body .block-text-free {
 }
 body #free_line_right {
   position: absolute;
-  top: 6.42655367rem;
+  top: 5.57909605rem;
   left: 5.4519774rem;
   background-color: #fff;
   height: .02824859rem;
@@ -55,11 +57,11 @@ body #free_line_right_dot {
 }
 body #free_line_right_text {
   position: absolute;
-  top: 6.24293785rem;
+  top: 5.39548023rem;
   left: 7.99435028rem;
   color: #747474;
   opacity: 0;
-  animation: free2 1s 1s forwards;
+  animation: free2 1s 2s forwards;
 }
 body .link {
   position: absolute;
@@ -69,12 +71,12 @@ body .link {
 }
 body .link-double {
   left: 3.72881356rem;
-  top: 10.59322034rem;
+  top: 9.74576271rem;
   z-index: 999;
 }
 body .link-aerobic {
   left: 3.72881356rem;
-  top: 11.41242938rem;
+  top: 10.28248588rem;
   z-index: 999;
 }
 body .block-img-exercise {
@@ -98,13 +100,23 @@ body .block-title-data img {
 body .block-img-data img {
   width: 5.02824859rem;
 }
+body .block-text-data {
+  text-align: center;
+  opacity: 0;
+  animation: user2 1s 0s forwards;
+}
 body .block-img-user img {
   width: 5rem;
 }
 body .block-text-user {
   padding-left: .98870056rem;
   opacity: 0;
-  animation: user2 1s 1.5s forwards;
+  animation: user2 1s 2s forwards;
+}
+body .block-text-user2 {
+  padding-left: .98870056rem;
+  opacity: 0;
+  animation: user2 1s 3s forwards;
 }
 @keyframes aerobic {
   from {
@@ -134,14 +146,14 @@ body #aerobic_line_right_dot {
 body #aerobic_line_right {
   background-color: #1d979a;
   position: absolute;
-  top: 12.38700565rem;
+  top: 11.53954802rem;
   left: 5.74858757rem;
   height: .02824859rem;
-  animation: aerobic 2s 0s forwards;
+  animation: aerobic 1s 0s forwards;
 }
 body #aerobic_line_right_text {
   position: absolute;
-  top: 12.00564972rem;
+  top: 11.15819209rem;
   right: .6779661rem;
   color: #747474;
   opacity: 0;
@@ -165,7 +177,7 @@ body #aerobic_line_right_text {
 }
 body #user_line_right_dot {
   position: absolute;
-  top: 8.29096045rem;
+  top: 7.44350282rem;
   left: 7.45762712rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -175,14 +187,14 @@ body #user_line_right_dot {
 body #user_line_right {
   background-color: #fff;
   position: absolute;
-  top: 8.33333333rem;
+  top: 7.48587571rem;
   left: 7.54237288rem;
   height: .02824859rem;
-  animation: user 2s 0s forwards;
+  animation: user 1s 0s forwards;
 }
 body #user_line_right_text {
   position: absolute;
-  top: 7.90960452rem;
+  top: 7.06214689rem;
   right: 1.1299435rem;
   color: #747474;
   opacity: 0;
@@ -198,7 +210,7 @@ body #user_line_right_text {
 }
 body #user_line_right_dot2 {
   position: absolute;
-  top: 10.57909605rem;
+  top: 9.73163842rem;
   left: 7.45762712rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -208,14 +220,14 @@ body #user_line_right_dot2 {
 body #user_line_right2 {
   background-color: #fff;
   position: absolute;
-  top: 10.62146893rem;
+  top: 9.7740113rem;
   left: 7.54237288rem;
   height: .02824859rem;
-  animation: user 2s 0s forwards;
+  animation: user 1s 0s forwards;
 }
 body #user_line_right_text2 {
   position: absolute;
-  top: 10.24011299rem;
+  top: 9.39265537rem;
   right: 1.1299435rem;
   color: #747474;
   opacity: 0;

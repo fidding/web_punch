@@ -25,7 +25,15 @@ body .block-img-register img {
 }
 body .block-text-register {
   line-height: .56497175rem;
-  padding-left: 1.76553672rem;
+  padding-left: 1.20056497rem;
+  opacity: 0;
+  animation: connect6 1s 0s forwards;
+}
+body .block-text-register2 {
+  line-height: .56497175rem;
+  padding-left: 1.20056497rem;
+  opacity: 0;
+  animation: connect6 1s 1s forwards;
 }
 body .block-title {
   padding-left: 1.75141243rem;
@@ -83,7 +91,7 @@ body .block-text-operation {
 }
 body #connect_line_left_dot {
   position: absolute;
-  top: 13.33333333rem;
+  top: 12.54237288rem;
   right: 6.93502825rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -93,18 +101,18 @@ body #connect_line_left_dot {
 body #connect_line_left {
   background-color: #fff;
   position: absolute;
-  top: 13.36158192rem;
+  top: 12.57062147rem;
   right: 7.01977401rem;
   height: .02824859rem;
   animation: connect1 2s 0s forwards;
 }
 body #connect_line_left_text {
   position: absolute;
-  top: 13.13559322rem;
+  top: 12.34463277rem;
   left: .49435028rem;
   color: #747474;
   opacity: 0;
-  animation: connect6 1s 1s forwards;
+  animation: connect6 1s 2s forwards;
 }
 @keyframes connect2 {
   from {
@@ -140,7 +148,7 @@ body #connect_line_left_text {
 }
 body #connect_line_right_dot {
   position: absolute;
-  bottom: 8.24858757rem;
+  bottom: 9.0960452rem;
   left: 5.59322034rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -149,7 +157,7 @@ body #connect_line_right_dot {
 }
 body #connect_line_right_dot_2 {
   position: absolute;
-  top: 5.42372881rem;
+  top: 4.57627119rem;
   right: 2.5rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -159,30 +167,30 @@ body #connect_line_right_dot_2 {
 body #connect_line_right {
   background-color: #fff;
   position: absolute;
-  bottom: 8.27683616rem;
+  bottom: 9.12429379rem;
   left: 5.6920904rem;
   height: .02824859rem;
-  animation: connect2 1s 0s forwards;
+  animation: connect2 0.5s 0s forwards;
 }
 body #connect_line_right_2 {
   background-color: #fff;
   position: absolute;
-  bottom: 8.27683616rem;
+  bottom: 9.12429379rem;
   left: 8.05084746rem;
   width: .02824859rem;
-  animation: connect3 1s 1s forwards;
+  animation: connect3 1s 0.5s forwards;
 }
 body #connect_line_right_3 {
   background-color: #fff;
   position: absolute;
-  top: 5.4519774rem;
+  top: 4.60451977rem;
   right: 1.94915254rem;
   height: .02824859rem;
-  animation: connect4 1s 2s forwards;
+  animation: connect4 0.5s 1.5s forwards;
 }
 body #content_line_right_text {
   position: absolute;
-  top: 4.85875706rem;
+  top: 4.01129944rem;
   right: 1.51129944rem;
   color: #747474;
   width: .28248588rem;
@@ -208,14 +216,14 @@ body #content_line_right_text {
 body #operation_line_left {
   background-color: #fff;
   position: absolute;
-  top: 10.59322034rem;
+  top: 9.74576271rem;
   right: 7.57062147rem;
   height: .02824859rem;
   animation: operation 2s 0s forwards;
 }
 body #operation_line_left_dot {
   position: absolute;
-  top: 10.56497175rem;
+  top: 9.71751412rem;
   right: 7.48587571rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -224,11 +232,11 @@ body #operation_line_left_dot {
 }
 body #operation_line_left_text {
   position: absolute;
-  top: 10.39548023rem;
+  top: 9.5480226rem;
   left: .6779661rem;
   color: #747474;
   opacity: 0;
-  animation: operation2 1s 1s forwards;
+  animation: operation2 1s 2s forwards;
 }
 @keyframes operation3 {
   from {
@@ -241,14 +249,14 @@ body #operation_line_left_text {
 body #operation_line_right {
   background-color: #fff;
   position: absolute;
-  top: 7.88135593rem;
+  top: 7.03389831rem;
   left: 5.97457627rem;
   height: .02824859rem;
   animation: operation3 2s 0s forwards;
 }
 body #operation_line_right_dot {
   position: absolute;
-  top: 7.82485876rem;
+  top: 6.97740113rem;
   left: 5.87570621rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -257,11 +265,11 @@ body #operation_line_right_dot {
 }
 body #operation_line_right_text {
   position: absolute;
-  top: 7.71186441rem;
+  top: 6.86440678rem;
   right: .84745763rem;
   color: #747474;
   opacity: 0;
-  animation: operation2 1s 1s forwards;
+  animation: operation2 1s 2s forwards;
 }
 @keyframes operation4 {
   from {
@@ -274,14 +282,14 @@ body #operation_line_right_text {
 body #operation_line_right2 {
   background-color: #fff;
   position: absolute;
-  top: 9.83050847rem;
+  top: 8.98305085rem;
   left: 7.45762712rem;
   height: .02824859rem;
   animation: operation4 2s 0s forwards;
 }
 body #operation_line_right_dot2 {
   position: absolute;
-  top: 9.7740113rem;
+  top: 8.92655367rem;
   left: 7.34463277rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -291,11 +299,11 @@ body #operation_line_right_dot2 {
 body #operation_line_right_text2 {
   text-align: right;
   position: absolute;
-  top: 9.60451977rem;
+  top: 8.75706215rem;
   right: .84745763rem;
   color: #747474;
   opacity: 0;
-  animation: operation2 1s 1s forwards;
+  animation: operation2 1s 2s forwards;
 }
 @keyframes operation5 {
   from {
@@ -308,14 +316,14 @@ body #operation_line_right_text2 {
 body #operation_line_right3 {
   background-color: #fff;
   position: absolute;
-  top: 10.62146893rem;
+  top: 9.7740113rem;
   left: 7.45762712rem;
   height: .02824859rem;
   animation: operation4 2s 0s forwards;
 }
 body #operation_line_right_dot3 {
   position: absolute;
-  top: 10.57909605rem;
+  top: 9.73163842rem;
   left: 7.34463277rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -325,11 +333,11 @@ body #operation_line_right_dot3 {
 body #operation_line_right_text3 {
   text-align: right;
   position: absolute;
-  top: 10.4519774rem;
+  top: 9.60451977rem;
   right: .84745763rem;
   color: #747474;
   opacity: 0;
-  animation: operation2 1s 1s forwards;
+  animation: operation2 1s 2s forwards;
 }
 @keyframes operation6 {
   from {
@@ -350,14 +358,14 @@ body #operation_line_right_text3 {
 body #operation_line_bottom {
   background-color: #fff;
   position: absolute;
-  top: 10.9039548rem;
+  top: 10.05649718rem;
   left: 6.44067797rem;
   width: .02824859rem;
   animation: operation6 1s 0s forwards;
 }
 body #operation_line_bottom_dot {
   position: absolute;
-  top: 10.81920904rem;
+  top: 9.97175141rem;
   left: 6.39830508rem;
   border: 1px solid #fff;
   width: .08474576rem;
@@ -367,7 +375,7 @@ body #operation_line_bottom_dot {
 body #operation_line_bottom1 {
   background-color: #fff;
   position: absolute;
-  top: 11.15819209rem;
+  top: 10.31073446rem;
   left: 6.44067797rem;
   height: .02824859rem;
   animation: operation7 1s 1s forwards;
@@ -375,9 +383,9 @@ body #operation_line_bottom1 {
 body #operation_line_bottom_text {
   text-align: right;
   position: absolute;
-  top: 10.96045198rem;
+  top: 10.11299435rem;
   right: .84745763rem;
   color: #747474;
   opacity: 0;
-  animation: operation2 1s 1s forwards;
+  animation: operation2 1s 2s forwards;
 }
