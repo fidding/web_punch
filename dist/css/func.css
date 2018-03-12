@@ -91,7 +91,7 @@ body .block-text-open3 {
 }
 body #func_line_left_dot {
   position: absolute;
-  bottom: 9.68926554rem;
+  bottom: 10.53672316rem;
   left: 1.79378531rem;
   border: 1px solid #fff;
   width: .25423729rem;
@@ -101,7 +101,7 @@ body #func_line_left_dot {
 body #func_line_left {
   background-color: #fff;
   position: absolute;
-  bottom: 9.97175141rem;
+  bottom: 10.81920904rem;
   left: 1.93502825rem;
   width: .02824859rem;
   animation: func 1s 0s forwards;
@@ -109,14 +109,14 @@ body #func_line_left {
 body #func_line_left2 {
   background-color: #fff;
   position: absolute;
-  bottom: 12.30225989rem;
+  bottom: 13.14971751rem;
   left: 1.93502825rem;
   height: .02824859rem;
   animation: func3 1s 1s forwards;
 }
 body #func_line_left_text {
   position: absolute;
-  bottom: 12.44350282rem;
+  bottom: 13.29096045rem;
   left: 1.89265537rem;
   color: #747474;
   opacity: 0;
@@ -141,7 +141,7 @@ body #func_line_left_text {
 body #func_line_top_left {
   background-color: #fff;
   position: absolute;
-  bottom: 10.93220339rem;
+  bottom: 11.77966102rem;
   left: 3.75706215rem;
   width: .02824859rem;
   animation: func4 1s 0s forwards;
@@ -149,7 +149,7 @@ body #func_line_top_left {
 body #func_line_top_right {
   background-color: #fff;
   position: absolute;
-  bottom: 10.93220339rem;
+  bottom: 11.77966102rem;
   right: 3.75706215rem;
   width: .02824859rem;
   animation: func4 1s 0s forwards;
@@ -157,7 +157,7 @@ body #func_line_top_right {
 body #func_line_top_left2 {
   background-color: #fff;
   position: absolute;
-  bottom: 12.42937853rem;
+  bottom: 13.27683616rem;
   left: 3.75706215rem;
   height: .02824859rem;
   animation: func5 1s 1s forwards;
@@ -165,14 +165,14 @@ body #func_line_top_left2 {
 body #func_line_top_right2 {
   background-color: #fff;
   position: absolute;
-  bottom: 12.42937853rem;
+  bottom: 13.27683616rem;
   right: 3.75706215rem;
   height: .02824859rem;
   animation: func5 1s 1s forwards;
 }
 body #func_line_top_text {
   position: absolute;
-  bottom: 12.57062147rem;
+  bottom: 13.55932203rem;
   left: 4.26553672rem;
   color: #747474;
   opacity: 0;
@@ -196,7 +196,7 @@ body #func_line_top_text {
 }
 body #func_line_bottom_left_dot {
   position: absolute;
-  top: 7.88135593rem;
+  top: 7.03389831rem;
   left: 2.71186441rem;
   border: 1px solid #fff;
   width: 1.1299435rem;
@@ -205,7 +205,7 @@ body #func_line_bottom_left_dot {
 }
 body #func_line_bottom_right_dot {
   position: absolute;
-  top: 7.88135593rem;
+  top: 7.03389831rem;
   right: 2.61299435rem;
   border: 1px solid #fff;
   width: 1.1299435rem;
@@ -214,7 +214,7 @@ body #func_line_bottom_right_dot {
 }
 body #func_line_bottom_center_dot {
   position: absolute;
-  top: 7.88135593rem;
+  top: 7.03389831rem;
   left: 4.49152542rem;
   border: 1px solid #fff;
   width: 1.1299435rem;
@@ -224,7 +224,7 @@ body #func_line_bottom_center_dot {
 body #func_line_bottom_left {
   background-color: #fff;
   position: absolute;
-  top: 9.03954802rem;
+  top: 8.1920904rem;
   left: 3.30508475rem;
   width: .02824859rem;
   animation: func6 1s 0s forwards;
@@ -232,7 +232,7 @@ body #func_line_bottom_left {
 body #func_line_bottom_center {
   background-color: #fff;
   position: absolute;
-  top: 9.03954802rem;
+  top: 8.1920904rem;
   left: 5.08474576rem;
   width: .02824859rem;
   animation: func6 2s 0s forwards;
@@ -240,7 +240,7 @@ body #func_line_bottom_center {
 body #func_line_bottom_right {
   background-color: #fff;
   position: absolute;
-  top: 9.03954802rem;
+  top: 8.1920904rem;
   right: 3.1779661rem;
   width: .02824859rem;
   animation: func6 1s 0s forwards;
@@ -248,7 +248,7 @@ body #func_line_bottom_right {
 body #func_line_bottom_left2 {
   background-color: #fff;
   position: absolute;
-  top: 10.4519774rem;
+  top: 9.60451977rem;
   left: 3.30508475rem;
   height: .02824859rem;
   animation: func7 1s 1s forwards;
@@ -256,14 +256,14 @@ body #func_line_bottom_left2 {
 body #func_line_bottom_right2 {
   background-color: #fff;
   position: absolute;
-  top: 10.4519774rem;
+  top: 9.60451977rem;
   right: 3.1779661rem;
   height: .02824859rem;
   animation: func7 1s 1s forwards;
 }
 body #func_line_bottom_text {
   position: absolute;
-  top: 10.59322034rem;
+  top: 9.74576271rem;
   left: 4.16666667rem;
   color: #747474;
   opacity: 0;
